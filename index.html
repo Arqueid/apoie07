@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apoie o Criador de Conteúdo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Apoie o Criador de Conteúdo</h1>
+        <p>Para dar um apoio ao Criador, você pode escanear o QR code abaixo ou copiar a chave PIX.</p>
+        <div class="qrcode-container">
+            <img src="qrcode.jpg" alt="QR Code para doação PIX">
+        </div>
+        <div class="pix-keys">
+            <div class="pix-key">
+                <p>Chave PIX (Email): <span id="pixEmail">moratowilianfernando@gmail.com</span></p>
+                <button onclick="copyToClipboard('pixEmail')">Copiar</button>
+            </div>
+            <!-- Adicione outras chaves PIX se necessário -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
