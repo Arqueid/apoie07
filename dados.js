@@ -14,6 +14,8 @@ const bancoDeVideos = [
         descricao: "O Maior Seriado História da TV Mundial está disponivel Aqui...",
         urlVideo: [
             "https://files.catbox.moe/v2ffcq.webm",
+            // - Como Pegar Um Touro a Unha
+            "https://files.catbox.moe/soc3lf.mp4",
             // - A Casa Da Bruxa
             "https://files.catbox.moe/f57p1n.webm",
             "https://files.catbox.moe/v2ffcq.webm"
