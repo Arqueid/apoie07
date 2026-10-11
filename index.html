@@ -39,8 +39,8 @@
         if (!bancoDeVideos || bancoDeVideos.length === 0) {
             container.innerHTML = '<p class="mensagem-erro">Ainda não contém video</p>';
         } else {
-            // 3. Cria uma cópia do array, embaralha e extrai no máximo 12 itens
-            let videosSorteados = embaralharArray([...bancoDeVideos]).slice(0, 12);
+            // 3. Cria uma cópia do array, embaralha e extrai no máximo 13 itens
+            let videosSorteados = embaralharArray([...bancoDeVideos]).slice(0, 13);
 
             // 4. Constrói a estrutura HTML para cada vídeo do sorteio e insere no container.
             // Para adicionar novas informações (como data ou views), insira tags HTML dentro da estrutura de crase (` `) abaixo.
