@@ -8,6 +8,25 @@
 const bancoDeVideos = [
 
      {
+        idUnico: "vid_13",
+        idGrupo: "musicas_infantis",
+        titulo: "Músiquinhas Para Crinça",
+        descricao: "As cantigas de Roda e musiquinhas que divertem os pequenos",
+        urlVideo: [
+
+        // - Abertura do Site:
+            "https://files.catbox.moe/v2ffcq.webm",
+            // - Músiquinhas:
+            "https://files.catbox.moe/bfqnd3.mp4",
+            // - Abertura do Site:
+            "https://files.catbox.moe/ebxkzg.webp"
+        ],
+        // - Capa de Alice no País das Maravilhas:
+        urlCapa: "https://files.catbox.moe/jngiph.webp",
+        tags: ["infantis", "música", "músicas", "musica", "musicas"]
+    },
+
+     {
         idUnico: "vid_12",
         idGrupo: "desenho",
         titulo: "Alice No País das Maravilhas",
