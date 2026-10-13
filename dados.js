@@ -95,7 +95,7 @@ const bancoDeVideos = [
             "https://files.catbox.moe/rn00et.webm",
            
             // - Abertura do Site:
-            "https://files.catbox.moe/ebxkzg.webp"
+            "https://files.catbox.moe/v2ffcq.webm"
         ],
         // - Capa de Alice no País das Maravilhas:
         urlCapa: "https://files.catbox.moe/ebxkzg.webp",
