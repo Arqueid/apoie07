@@ -24,7 +24,7 @@ const bancoDeVideos = [
 
     "https://files.catbox.moe/v2ffcq.webm"
     ],
-    urlCapa: "https://yourimageshare.com/ib/f8RVkp7kJo.webp",
+    urlCapa: "https://files.catbox.moe/vd1eif.webp",
     tags: ["o auto da compadecida", "O Auto Da Compadecida", "nacional", "Cinema Nacional", "Jão Grilo"]
 },
 
@@ -39,7 +39,7 @@ const bancoDeVideos = [
     "https://archive.org/download/a.-paixao.de.-cristo.-2004.1080p.-dual/A.Paix%C3%A3o.de.Cristo.2004.1080p.Dual-WOLVERDONFILMES.COM.mp4",
     "https://files.catbox.moe/v2ffcq.webm"
     ],
-    urlCapa: "https://yourimageshare.com/ib/GYxEXsVGJ9.webp",
+    urlCapa: "https://files.catbox.moe/o6bbxo.webp",
     tags: ["a paixão de cristo", "A Paixão de Cristo", "Jesus Cristo", "drama", "Drama"]
 },
 
