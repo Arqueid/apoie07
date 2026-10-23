@@ -127,7 +127,7 @@ const bancoDeVideos = [
     },
 
 
-    {
+        {
         idUnico: "vid_21",
         idGrupo: "drama",
         titulo: "O Som Do Coração",
@@ -138,19 +138,19 @@ const bancoDeVideos = [
         "https://files.catbox.moe/v2ffcq.webm",
 
         // - part1
-        "https://i.yourimageshare.com/xrgje1aaVl.mp4",
+        "https://files.catbox.moe/aavnl5.mp4",
 
         // - part2
-        "https://yourimageshare.com/ib/aoufAPwP53.mp4",
+        "https://files.catbox.moe/5kkmb3.mp4",
 
         // - part3
-        "https://yourimageshare.com/ib/ryqJmQhPoI.mp4",
+        "https://files.catbox.moe/bres0y.mp4",
 
         // - Abertura do Site:
         "https://files.catbox.moe/v2ffcq.webm"
         ],
-        // Capa - Spirit: O Som Do Coração
-        urlCapa: "https://yourimageshare.com/ib/HhG6x3gHx1.webp",
+        // Capa - O Som Do Coração
+        urlCapa: "https://files.catbox.moe/1gzape.webp",
         tags: ["o som do coração", "coração", "August Rush", "emoção"]
     },
 
