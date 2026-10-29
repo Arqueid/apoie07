@@ -10,30 +10,6 @@ const bancoDeVideos = [
 
 
 {
-    idUnico: "vid_28",
-    idGrupo: "desenho",
-    titulo: "Guerreiras do K-Pop",
-    descricao: "Quando não estão lotando estádios, as estrelas do K-pop Rumi, Mira e Zoey usam seus poderes secretos para proteger os fãs de ameaças sobrenaturais.",
-    urlVideo: [
-    
-    // - Abertura do Site
-    "https://files.catbox.moe/v2ffcq.webm",
-
-    // - parte1:
-    "https://files.catbox.moe/et5ibl.mp4",
-    // - parte2:
-    "https://files.catbox.moe/mz37j7.mp4",
-    // - parte3:
-    "#",
-    // - Abertura do Site
-    "https://files.catbox.moe/v2ffcq.webm"
-    ],
-    urlCapa: "https://files.catbox.moe/6y125c.webp",
-    tags: ["kpop", "desenho", "guerreiras do kpop", "guerreiras do KPop", "Guerreiras do K-Pop"]
-},
-
-
-{
     idUnico: "vid_27",
     idGrupo: "aventura",
     titulo: "O Auto da Compadecida",
