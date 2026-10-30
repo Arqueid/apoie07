@@ -1,0 +1,219 @@
+/* Declaração de fonte personalizada no estilo display LCD */
+@font-face {
+    font-family: 'LCDFont';
+    src: url('LCD.ttf') format('truetype');
+}
+
+/* Configurações visuais gerais do corpo da página */
+body {
+    background-color: #000; 
+    color: #0f0; 
+    font-family: 'LCDFont', monospace;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Painel de exibição LCD superior */
+#display-global {
+    font-size: 30px;
+    background-color: #111;
+    border: 2px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #0ff;
+}
+
+/* Layout dos dois decks e painel central */
+.container-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Estilo base para cada Deck de áudio */
+.deck {
+    width: 30%;
+    border: 3px solid;
+    padding: 20px;
+    background-color: #111;
+    border-radius: 10px;
+}
+
+/* Identificação visual das bordas dos decks por cor */
+.deck-vermelho { border-color: red; }
+.deck-azul { border-color: blue; }
+
+/* Animação do disco de vinil girando */
+.disco {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    margin: 10px auto;
+    display: block;
+    opacity: 0.3; 
+    transition: opacity 0.3s;
+    animation: girar 2s linear infinite;
+    animation-play-state: paused;
+}
+
+/* Classe ativada via JS quando o áudio entra em Play */
+.disco.rodando {
+    opacity: 1; 
+    animation-play-state: running;
+}
+
+/* Keyframes de rotação contínua em 360 graus */
+@keyframes girar {
+    100% { transform: rotate(360deg); }
+}
+
+/* Agrupamento dos botões e fader de volume */
+.controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* Estilo padrão de botões e seletores da interface */
+button {
+    font-family: 'LCDFont', monospace;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilo dos faders de volume vertical nativos */
+input[type=range][orient=vertical] {
+    writing-mode: bt-lr; 
+    -webkit-appearance: slider-vertical; 
+    width: 8px;
+    height: 80px;
+    cursor: pointer;
+}
+
+/* Container da coluna central (Busca + Crossfader) */
+.area-central {
+    width: 35%;
+}
+
+/* Campo de busca de faixas e tags */
+#campo-busca {
+    width: 100%;
+    padding: 10px;
+    font-family: 'LCDFont', monospace;
+    background-color: #222;
+    color: #0f0;
+    border: 1px solid #555;
+    box-sizing: border-box;
+}
+
+/* Lista dinâmica de resultados de busca */
+#lista-resultados {
+    margin-top: 10px;
+    max-height: 280px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+/* Itens arrastáveis exibidos nos resultados de busca */
+.item-musica {
+    background-color: #222;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: grab; 
+}
+
+/* NOVO: Estilização do painel do Crossfader na área central */
+.crossfader-container {
+    margin-top: 20px;
+    background-color: #111;
+    border: 1px solid #555;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.crossfader-container label {
+    display: block;
+    color: #ff0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.crossfader-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 2px;
+}
+
+#crossfader {
+    width: 100%;
+    cursor: pointer;
+    accent-color: #0ff;
+}
+
+/* Área inferior para os samplers de vinheta */
+.area-vinhetas {
+    margin-top: 30px;
+    border: 2px solid #555;
+    padding: 20px;
+    background-color: #111;
+}
+
+/* Organização dos slots de vinhetas em grade 3x3 */
+.grid-vinhetas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Slot básico de vinheta */
+.vinheta-slot {
+    background-color: #222;
+    border: 1px solid #777;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+    overflow: hidden;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.vinheta-slot:hover {
+    background-color: #444;
+}
+
+/* NOVO: Classe CSS que destaca visualmente a vinheta enquanto o áudio estiver tocando */
+.vinheta-slot.tocando {
+    background-color: #055;
+    border-color: #0ff;
+    color: #fff;
+    box-shadow: 0 0 8px #0ff;
+}
+
+/* Cronômetro com visor digital em estilo LCD */
+.visor-tempo {
+    font-size: 20px;
+    color: #ff0; 
+    margin-left: 15px;
+    background-color: #222;
+    padding: 2px 8px;
+    border: 1px solid #555;
+    border-radius: 4px;
+}
