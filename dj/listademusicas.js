@@ -4,6 +4,13 @@
 // O campo 'link' deve ser o URL direto do MP3 (ex: catbox.moe).
 const listaDeMusicas = [
 
+    
+    {
+        titulo: "trilha de gol",
+        artista: "globo",
+        link: "https://files.catbox.moe/72kqf0.mp3", // Substitua pelo link real
+        tags: ["gol", "vinheta", "trilha", "trilha de gol", "futebol", "musica de gol", "gol"]
+    },
     {
         titulo: "vinheta brasil sil sil",
         artista: "globo",
