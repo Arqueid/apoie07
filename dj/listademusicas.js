@@ -6,6 +6,14 @@ const listaDeMusicas = [
 
     
     {
+        titulo: "hino da libertadores",
+        artista: "conmebol",
+        link: "https://files.catbox.moe/56nlfh.mp3", // Substitua pelo link real
+        tags: ["libertadores", "copa libertadores", "trilha", "trilha da libertadores", "futebol", "conmebol libertadores"]
+    },
+
+    
+    {
         titulo: "trilha de gol",
         artista: "globo",
         link: "https://files.catbox.moe/72kqf0.mp3", // Substitua pelo link real
