@@ -5,6 +5,13 @@
 const listaDeMusicas = [
 
     {
+        titulo: "hino do corinthians",
+        artista: "globo",
+        link: "https://files.catbox.moe/pdi9jf.mp3", // Substitua pelo link real
+        tags: ["hino do corinthians - globo", "futebol", "globo", "hino do corinthians"]
+    },
+    
+    {
         titulo: "hino do palmeiras",
         artista: "globo",
         link: "https://files.catbox.moe/pdi9jf.mp3", // Substitua pelo link real
