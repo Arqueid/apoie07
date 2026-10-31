@@ -6,6 +6,20 @@ const listaDeMusicas = [
 
     
     {
+        titulo: "vinheta tempo de jogo 2",
+        artista: "radio",
+        link: "https://files.catbox.moe/r8qo0u.mp3", // Substitua pelo link real
+        tags: ["tempo", "vinheta", "tempo de jogo", "vinheta tempo de jogo", "futebol", "radio"]
+    },
+    
+    {
+        titulo: "vinheta tempo de jogo 1",
+        artista: "radio",
+        link: "https://files.catbox.moe/lev6gs.mp3", // Substitua pelo link real
+        tags: ["tempo", "vinheta", "tempo de jogo", "vinheta tempo de jogo", "futebol", "radio"]
+    },
+    
+    {
         titulo: "hino da libertadores",
         artista: "conmebol",
         link: "https://files.catbox.moe/56nlfh.mp3", // Substitua pelo link real
