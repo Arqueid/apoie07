@@ -3,6 +3,21 @@
 // Para REMOVER músicas: Apague a linha correspondente do objeto {...}.
 // O campo 'link' deve ser o URL direto do MP3 (ex: catbox.moe).
 const listaDeMusicas = [
+   
+  {
+        titulo: "billie jean",
+        artista: "michael jackson",
+        link: "https://files.catbox.moe/iyb4n7.mp3", // Substitua pelo link real
+        tags: ["bilie jean", "pop", "danca"]
+    }, 
+   
+   {
+        titulo: "macarena",
+        artista: "los del rio",
+        link: "https://files.catbox.moe/b5x9fy.mp3", // Substitua pelo link real
+        tags: ["macarena", "danca", "pop"]
+    },
+   
    {
         titulo: "contagem regressiva de dez segundos",
         artista: "vinheta",
