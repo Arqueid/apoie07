@@ -5,6 +5,20 @@
 const listaDeMusicas = [
 
     {
+        titulo: "pipoco",
+        artista: "ana castela",
+        link: "https://files.catbox.moe/rmuz1d.mp3", // Substitua pelo link real
+        tags: ["ana castela", "melody", "funk"]
+    },
+    
+    {
+        titulo: "ensaio das maravilhas",
+        artista: "bonde das maravilhas",
+        link: "https://files.catbox.moe/nmawg8.mp3", // Substitua pelo link real
+        tags: ["ensaio das maravilhas", "bonde das maravilhas", "pedro sampaio", "funk"]
+    },
+    
+    {
         titulo: "do fundo da grota",
         artista: "baitaca",
         link: "https://files.catbox.moe/rax9aq.mp3", // Substitua pelo link real
