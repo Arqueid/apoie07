@@ -4,6 +4,12 @@
 // O campo 'link' deve ser o URL direto do MP3 (ex: catbox.moe).
 const listaDeMusicas = [
 
+    {
+        titulo: "vai matar papai",
+        artista: "diovane severo",
+        link: "https://files.catbox.moe/yan9w7.mp3", // Substitua pelo link real
+        tags: ["vai mata papai", "pisadinha", "2026", "pisadinha"]
+    },
     
     {
         titulo: "vinheta tempo de jogo 2",
