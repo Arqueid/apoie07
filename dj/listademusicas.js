@@ -5,6 +5,13 @@
 const listaDeMusicas = [
 
     {
+        titulo: "do fundo da grota",
+        artista: "baitaca",
+        link: "https://files.catbox.moe/rax9aq.mp3", // Substitua pelo link real
+        tags: ["grota", "vanera", "2026", "2025", "baitaca"]
+    },
+    
+    {
         titulo: "vai matar papai",
         artista: "diovane severo",
         link: "https://files.catbox.moe/yan9w7.mp3", // Substitua pelo link real
